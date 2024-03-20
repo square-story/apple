@@ -10,6 +10,8 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    height: 100%;
+    width: 100%;
     
 }
 header{
@@ -78,7 +80,7 @@ nav a{
 nav a.with{
     color: #0066cc;
 }
-nav a.with:hover{
+nav a.with span:hover{
     text-decoration: underline;
 }
 .container1{
@@ -106,7 +108,7 @@ nav a.with:hover{
     margin-left: auto;
     margin-right: auto;
 }
-.container1 h3{
+.container1 h3,.container2 h3{
     position: absolute;
     color: #f5f5f7;
     line-height: 1.07143;
@@ -119,13 +121,13 @@ nav a.with:hover{
     margin-left: auto;
     margin-right: auto;
 }
-.hyper1{
+.hyper1,.hyper2{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 30vh 0px;
 }
-.hyper1 a{
+.hyper1 a,.hyper2 a{
     font-family: sf-light;
     font-size: 21px;
     padding: 0px 10px;
@@ -133,10 +135,130 @@ nav a.with:hover{
     text-decoration: none;
     line-height: 1.381;
 }
-.hyper1 a{
+.hyper1 span:hover,.hyper2 span:hover{
+    text-decoration: underline;
+}
+.container2{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(Images/hero_iphone15_announce__uuemlcwczn6u_large.jpg);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+}
+.container2 h1{
+    position: absolute;
+    color: #1d1d1f;
+    line-height: 1.07143;
+    letter-spacing: -.005em;
+    font-family: sf-normal;
+    font-size: 56px;
+    text-align: center;
+    width: 100%;
+    top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container2 h3{
+    color: #1d1d1f;
+    /* the values is inherited with container 1 */
+}
+.hyper2 a{
+    color: #0066cc;
+}
+.container3 {
+    z-index: 3;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 130vh;
+    top: 10px;
+}
+.video{
+    position: absolute;
+    width: 100%;
+}
+.content1{
+    position: absolute;
+    top: 70%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+.content1 h3{
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: bold;
+    letter-spacing: .004em;
+    font-family: sf-light;
+    color: #f5f5f7;
+    cursor: pointer;
+}
+.content1 a{
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: sf-light;
+    border: solid;
+    background-color:white;
+    border-color: #0066cc00;
     text-decoration: none;
+    padding: 11px 21px;
+    cursor: pointer;
+    border-radius: 980px;
+    color: black;
+    min-width: 28px;
+    margin: 0px 15px 0px 0px;
+}
+.bigcontainer1{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 120vw;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: repeat(6,40%);
+    grid-column-gap: 10px;
+    /* grid-row-gap: 10px; */
+}
+.box1{
+    position: relative;
+    background-image: url(Images/promo_macbook_air_m3__e43jegok3wuq_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     
 }
-.hyper1 a:hover{
-    text-decoration: underline;
+.box2{
+    position: relative;
+    background-image: url(Images/promo_ipad__fioegapg12qi_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.box3{
+    position: relative;
+    background-image: url(Images/promo_airpods_pro_order__d8xv36p4uwae_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box4{
+    position: relative;
+    background-image: url(Images/promo_mbp__ek7p477bkp6q_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box5{
+    position: relative;
+    background-image: url(Images/tile_homepod_mini__b73w4z3ljymu_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box6{
+    position: relative;
+    background-image: url(Images/promo_iphone_tradein__bugw15ka691e_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
