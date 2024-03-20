@@ -127,7 +127,7 @@ nav a.with span:hover{
     align-items: center;
     padding: 30vh 0px;
 }
-.hyper1 a,.hyper2 a{
+.hyper1 a,.hyper2 a,.hyper3 a{
     font-family: sf-light;
     font-size: 21px;
     padding: 0px 10px;
@@ -135,7 +135,7 @@ nav a.with span:hover{
     text-decoration: none;
     line-height: 1.381;
 }
-.hyper1 span:hover,.hyper2 span:hover{
+.hyper1 span:hover,.hyper2 span:hover,.hyper3 span:hover{
     text-decoration: underline;
 }
 .container2{
@@ -214,14 +214,14 @@ nav a.with span:hover{
     margin: 0px 15px 0px 0px;
 }
 .bigcontainer1{
-    margin: 0;
-    padding: 0;
     width: 100%;
-    height: 120vw;
+    height: 140vw;
     display: grid;
-    grid-template-columns: repeat(2,50%);
+    background-color: #0066cc;
+    grid-template-columns: auto auto;
+    /* grid-template-columns: repeat(2,50%);
     grid-template-rows: repeat(6,40%);
-    grid-column-gap: 10px;
+    grid-column-gap: 10px; */
     /* grid-row-gap: 10px; */
 }
 .box1{
@@ -229,6 +229,7 @@ nav a.with span:hover{
     background-image: url(Images/promo_macbook_air_m3__e43jegok3wuq_large.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    margin: 10px 10px;
     
 }
 .box2{
@@ -236,6 +237,7 @@ nav a.with span:hover{
     background-image: url(Images/promo_ipad__fioegapg12qi_large.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    margin: 10px 10px;
     
 }
 .box3{
@@ -243,22 +245,56 @@ nav a.with span:hover{
     background-image: url(Images/promo_airpods_pro_order__d8xv36p4uwae_large.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    margin: 0px 10px;
 }
 .box4{
     position: relative;
     background-image: url(Images/promo_mbp__ek7p477bkp6q_large.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    margin: 0px 10px;
 }
 .box5{
     position: relative;
     background-image: url(Images/tile_homepod_mini__b73w4z3ljymu_large.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    margin: 0px 10px;
 }
 .box6{
     position: relative;
     background-image: url(Images/promo_iphone_tradein__bugw15ka691e_large.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    margin: 0px 10px;
+}
+.innerbox{
+    position: absolute;
+    top: 10%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-family: sf-normal;
+  line-height: 40px;
+  color: rgb(30, 30, 32);
+}
+.innerbox h4{
+    font-size: 40px;
+/* line-height: 1.1; */
+font-weight: 600;
+letter-spacing: 0em;
+margin: 0;
+}
+.innerbox h6{
+    font-size: 21px;
+/* line-height: 1.2381; */
+font-weight:lighter;
+letter-spacing: .016em;
+margin: 0;
+}
+.innerbox .hyper3 a{
+    color: #0066cb;
+    font-size: 17px;
+/* line-height: 1.23536; */
+font-weight: 400;
 }
